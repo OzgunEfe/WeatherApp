@@ -3,7 +3,7 @@
 
 Welcome to the Weather App! This SwiftUI-based application provides real-time weather information for your current location using the OpenWeather API.
 
-<img src="Screenshot.png" alt="App Screenshot" width="300"/>
+<img src="Screenshot.png" alt="App Screenshot" width="450"/>
 
 The Weather App offers a straightforward and user-friendly interface to check the current weather conditions in your area. By utilizing your device's location services, the app fetches and displays essential weather details, including:
 

@@ -3,8 +3,11 @@
 
 Welcome to the Weather App! This SwiftUI-based application provides real-time weather information for your current location using the OpenWeather API.
 
-![Permission Page](/Permission-page.png)
-![Main Page](/App-page.png)
+ ## Permission Page
+<img src="Permission-page.png" alt="Permission Page" width="300"/>
+
+## Main Page
+<img src="App-page.png" alt="Main Page" width="300"/>
 
 ## Description
 
@@ -29,7 +32,7 @@ Additionally, the app provides your current location and the date and time of th
 To run this app on your local machine, follow these steps:
 
 1. **Clone the Repository:**
-
+   ```bash
    git clone https://github.com/OzgunEfe/WeatherApp.git
    
 2. **Open in Xcode:**

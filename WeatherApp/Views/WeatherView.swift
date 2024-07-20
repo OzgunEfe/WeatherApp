@@ -27,8 +27,8 @@ struct WeatherView: View {
                 
                 VStack{
                     HStack{
-                        VStack(spacing: 20) {
-                            Image(systemName: "sun.max")
+                        VStack(spacing: 15) {
+                            Image(systemName: "cloud.sun")
                                 .font(.system(size: 40))
                             
                             Text(weather.weather[0].main)
@@ -42,6 +42,8 @@ struct WeatherView: View {
                             . fontWeight(.bold)
                     }
                     .padding(.bottom, -5)
+                    .padding(.top, 15)
+                    .padding(.horizontal, 5)
                     
                     Spacer()
                         .frame(height: 80)
@@ -73,9 +75,9 @@ struct WeatherView: View {
                     
                     HStack{
                         VStack{
-                            WeatherRow(logo: "thermometer", name: "Min tempeture", value: (weather.main.tempMin.roundDoube() + "°"))
+                            WeatherRow(logo: "thermometer", name: "Min temperature", value: (weather.main.tempMin.roundDoube() + "°"))
 
-                            WeatherRow(logo: "thermometer", name: "Max tempeture", value: (weather.main.tempMax.roundDoube() + "°"))
+                            WeatherRow(logo: "thermometer", name: "Max temperature", value: (weather.main.tempMax.roundDoube() + "°"))
                         }
                         
                         Spacer()

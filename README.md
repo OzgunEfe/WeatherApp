@@ -42,6 +42,7 @@ Upon launching the app, grant location permissions when prompted. The app will t
 ## Acknowledgements
 
 - [OpenWeather API](https://openweathermap.org/api) for providing the weather data.
+- [Design+Code](https://designcode.io/) for the inspiration and guidance on UI design.
 
    
    
